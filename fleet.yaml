@@ -9,9 +9,9 @@ diff:
     kind: ClusterPolicy
     name: kyverno-cluster-policy
     operations:
-    - {"op":"remove", "path":"/spec/rules"}
+    - {"op":"ignore", "path":"/spec/rules"}
   - apiVersion: kyverno.io
     kind: Policy
     name: kyverno-cluster-policy
     operations:
-    - {"op":"remove", "path":"/spec/rules"}
+    - {"op":"ignore", "path":"/spec/rules"}
