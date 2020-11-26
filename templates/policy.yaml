@@ -1,1 +1,1 @@
-{{- .Files.Get "files/policy.yaml" }}
+{{- .Files.Get "files/*" }}
