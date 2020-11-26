@@ -1,7 +1,7 @@
 defaultNamespace: kyverno-test
 helm:
   releaseName: kyverno-test
-  chart: ./chart
+  # chart: ./chart
   # chart: "https://github.com/chipzoller/fleet-kyverno/archive/master.zip"
 # diff:
 #   comparePatches:
