@@ -1,1 +1,2 @@
 {{- .Files.Get "files/policy.yaml" }}
+{{- .Files.Get "files/secrets-not-from-env-vars.yaml" }}
