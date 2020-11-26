@@ -3,10 +3,10 @@
 #   releaseName: kyverno-test
   # chart: ./chart
   # chart: "https://github.com/chipzoller/fleet-kyverno/archive/master.zip"
-diff:
-  comparePatches:
-  - apiVersion: kyverno.io
-    kind: ClusterPolicy
-    name: kyverno-cluster-policy
-    operations:
-    - {"op":"remove", "path":"/spec/rules"}
+# diff:
+#   comparePatches:
+#   - apiVersion: kyverno.io
+#     kind: ClusterPolicy
+#     name: kyverno-cluster-policy
+#     operations:
+#     - {"op":"remove", "path":"/spec/rules"}
