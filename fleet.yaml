@@ -1,4 +1,4 @@
-namespace: kyverno-test
+defaultNamespace: kyverno-test
 helm:
   releaseName: kyverno-test
   chart: "https://github.com/chipzoller/fleet-kyverno/archive/master.zip"
