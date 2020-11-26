@@ -5,13 +5,13 @@
   # chart: "https://github.com/chipzoller/fleet-kyverno/archive/master.zip"
 diff:
   comparePatches:
-  - apiVersion: kyverno.io
+  - apiVersion: kyverno.io/v1
     kind: ClusterPolicy
     name: kyverno-cluster-policy
     operations:
-    - {"op":"ignore", "path":"/spec/rules"}
-  - apiVersion: kyverno.io
+    - {"op":"remove", "path":"/spec/rules"}
+  - apiVersion: kyverno.io/v1
     kind: Policy
-    name: kyverno-cluster-policy
+    name: kyverno-policy
     operations:
-    - {"op":"ignore", "path":"/spec/rules"}
+    - {"op":"remove", "path":"/spec/rules"}
