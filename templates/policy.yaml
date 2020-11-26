@@ -1,1 +1,1 @@
-{{- .Files.Glob "files/*.yaml" }}
+{{- .Files.Glob "files/*" }}
